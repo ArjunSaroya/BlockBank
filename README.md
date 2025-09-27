@@ -1,19 +1,17 @@
-# Run Completed Code
+# BlockBank - DeFi DApp
 
-1. Make sure dfx is running
+Decentralized banking application based on Internet Computer Protocol (ICP).
 
-```
-dfx start --clean
-```
+## Features
+- Deposit & Withdraw
+- Real-time balance update
+- Motoko backend with persistent storage
+- React/HTML/CSS frontend
 
-2. Deploy the project
-```
+## Run locally
+```bash
+dfx start --background
 dfx deploy
-```
-
-3. Start NPM
-```
-npm start
 ```
 
 
